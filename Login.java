@@ -45,7 +45,7 @@ public class Login extends JFrame implements ActionListener{
         p2.add(user); 
 
          tuser = new JTextField();
-        tuser.setBounds(30 ,50 ,300 ,50);
+        tuser.setBounds(30 ,50 ,300 ,30);
         tuser.setBorder(BorderFactory.createEmptyBorder());
         p2.add(tuser);
     
@@ -55,7 +55,7 @@ public class Login extends JFrame implements ActionListener{
         p2.add(pass); 
 
          tpass = new JTextField();
-        tpass.setBounds(30 ,150 ,300 ,50);
+        tpass.setBounds(30 ,150 ,300 ,30);
         tpass.setBorder(BorderFactory.createEmptyBorder());
         p2.add(tpass);
         
